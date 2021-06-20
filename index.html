@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet"> 
+    <title>Meu Primeiro Projeto no Linux</title>
+</head>
+<body>
+    <h1>Hello Linux! <img src="Imagens/logo.png" width="3.5%"></h1>
+    <div id="texto">
+        <p>Esse é o meu primeiro projeto direto no sistema do <b>Linux Ubuntu</b> através do Virtual Box. Estou muito feliz pois está tudo indo muito bem!</p>
+        <p>E para começar bem vou fazer uma calculadora bem básica, só para teste, para ver como roda o Visual Studio Code aqui na minha máquina.</p>
+    </div>
+    <div class="calculadora">
+        <input type="number" id="numero1">
+            <select id="operacao">
+                <option value="soma">+</option>
+                <option value="sub">-</option>
+                <option value="divisao">/</option>
+                <option value="multiplicacao">*</option>
+        </select>
+        <input type="number" id="numero2">
+    </div>
+    <div id="botao">
+        <button onclick="calcular()" role="button">CALCULAR</button>
+    </div>
+    <div id="resultado">
+        <h2 id="resultadoDaConta"></h2>
+    </div>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>
